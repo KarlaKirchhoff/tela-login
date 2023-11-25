@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body class="flex" onload="carregar()">
+    <div class="container flex" id="container-01">
+        <h1 class="h1-container" id="h1-container-01"></h1>
+
+        <section class="area-login">
+
+            <img src="" alt="" class="login-img" id="login-img-c01">
+            <section class="login-entrada">
+                <h2>Tela de Login</h2>
+                <p>Nome: 
+                    <input type="text" name="login-nome">
+                </p>
+                <p> Senha: 
+                    <input type="password" name="login-senha" id="login-senha">
+                </p>
+
+                <span>login e senha: teste01</span>
+    
+                <button id="botao_ok" onclick="login_verificar()" >OK</button>
+            </section>
+        </section>
+    
+        <footer class="flex">
+            <p>&copy; Karla Kirchhoff</p>
+            <p class="desc">Estudante de Ensino Superior</p>
+            <p class="desc">IFPR</p>
+        </footer>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
